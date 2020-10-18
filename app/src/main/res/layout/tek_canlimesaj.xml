@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:id="@+id/konusmabalonu_gelen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/Gelenres_c"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/personempty"
+            android:visibility="visible"
+            app:civ_border="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Gelennick_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hel_light"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/Gelenmesaj_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/konusmabalonu_t"
+                android:maxWidth="250dp"
+                android:maxLength="300"
+                android:padding="5dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/konusmabalonu_giden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/Gidennick_c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hel_light"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/Gidenmesaj_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/konusmabalonu_m"
+                android:maxWidth="250dp"
+                android:padding="5dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/Gidenres_c"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/personempty"
+            android:visibility="visible"
+            app:civ_border="false" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_puanboz"
+            android:title="Puan Bozdur" />
+        <item
+            android:id="@+id/nav_abonelik"
+            android:title="Abone Olmak İstiyorum" />
+        <item
+            android:id="@+id/nav_puanal"
+            android:title="Puan Satın Al" />
+        <item
+            android:id="@+id/nav_reklamkaldir"
+            android:title="Reklamları Kaldır" />
+        <item
+            android:id="@+id/nav_iletisim"
+            android:title="İletişim" />
+        <item
+            android:id="@+id/nav_hakkimizda"
+            android:title="Hakkımızda" />
+        <item android:id="@+id/nav_bizeyazin"
+            android:title="Mesaj Yolla"/>
+        <item
+            android:id="@+id/nav_hizmetpolitikasi"
+            android:title="Hizmet Politikası" />
+        <item
+            android:id="@+id/nav_ayarlar"
+            android:title="Ayarlar" />
+        <item
+            android:id="@+id/nav_cikis"
+            android:title="Çıkış" />
+
+    </group>
+
+
+</menu>

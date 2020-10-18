@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black2"
+    android:orientation="vertical"
+    tools:context=".Hakkimizda">
+
+    <ImageView
+        android:id="@+id/hakimizda_geribtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/back" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/beyazyuvkuparak"
+            android:elevation="7dp"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/katagori_back_y"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Hakkımızda"
+                    android:textColor="@color/black2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Live Tahmin ailesine hoş geldiniz öncelikle şunu belirtmek istiyoruza asıl amacımız sizleri sürekli kazandırmak haftalık olarak kârlı bi sistem yaratıp düzgün bi ortam oluşturmak."
+                    android:textColor="@color/black2" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Live Tahmin Giriş"
+                    android:textColor="@color/black2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Live Tahmin uygulamasına giriş yaptığınızda sistem sizden bi kullanıcı nicki istemektedir.Bu nick sizin kimliğiniz olcak bu nick üstünden iletişime geçeceğiz."
+                    android:textColor="@color/black2" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Ücretsiz"
+                    android:textColor="@color/black2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Uygulama içerisinde Basketbol,Banko,Süpriz kupon olmak üzere 4 ayrı kategoride ücretsiz günlük kuponlar paylaşılmaktadır."
+                    android:textColor="@color/black2" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Ücretli"
+                    android:textColor="@color/black2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Uygulama içerisinde  Özel kupon ve Canlı tahminler olmak üzere iki ayrı ücretli kategoride hizmet vermekteyiz. Özel kupon günlük olarak iyice sıkı analiz ettiğimiz kupon paylaşılmaktadır. Ayrıca topanan puanlar ilede 20 puan karşılında kuponu satın alabilirsiniz. Canlı Tahminler bölümde ise genel olarak avrupa liglerini kapsayan saat dilimlerinde günde en az 20 paylaşım yapılmaktadır.(Bu bölüm ayrıca günlük 100 puandan kullanıma açıla bilir.) Günde çok fazla paylaşım olduğundan dolayı paylaşımlar tek yapılmaktadır kombinedir bildirimi gelmeden kombine yapmamanız tavsiye edilir bir diğer konu ilerleyiş hiç bi paylaşımla sonuncuda pişman olucagınız miktarlar girmeyin. O gün hesabinizda olan miktari esit sekilde bölerek her paylasimi degerlendire bilirsiniz böylelikle daha verimli sonuçlar elde etmiş olucağız."
+                    android:textColor="@color/black2" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Puanlar"
+                    android:textColor="@color/black2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Abone olmayan kullanıcılar reklam izleyerek günde 10 puan kazana bilir önünüze çıkan tam sayfa reklamlara tıklayarak 1 puan kazanırsınız. (Karşılaşmayı Kim kazanır ) kategorisinde o güne ait popüler karşılaşma günlük olarak paylaşılır burada yapmış olduğunuz tahminlerde kazanmış olan kullanıcılara 5 puan aktarılır. "
+                    android:textColor="@color/black2" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Puanlar ile ne yapabilirim ? "
+                    android:textColor="@color/black2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Bu toplanan puan ile menüden puan bozdur bölümüne geldikten sonra dilediğiniz gibi bozdurma işle yapabilirsiniz özel kupon satın alabilir (20 puan) canlı tahminler bölümünü 1 günlük kullanıma açabilirsiniz (100 puan)  Genel olarak ücretsiz kullanıcılar için puan toplamak ve bozudurma işlemi yapmak zamanla keyifli hale gelicek ve kârlı bi sisteme dönüşücektir."
+                    android:textColor="@color/black2" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Puan Satın Alma"
+                    android:textColor="@color/black2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Menüde bulunan puan satın alma bölümünde dilegin gibi kullana bilecegin puanlar satın alına bilmektedir ücretli olan 2 kategorimiz özel kupon ve canlı tahminler bölümünde rahatlıkla kullana bilmeniz için yapıldı. Ücretli olan kategorideki puanlama sistemi şu şekildedir Günlük özel kupon (20 puan) Günlük canlı tahminleri kullanıma açma (100 puan) Istediginiz gün canlı tahminleri görmek için günlük 100 puan karşılında bu kategoriden faydalana bilirnisiniz."
+                    android:textColor="@color/black2" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="Sorun ve Görüş bildirmek"
+                    android:textColor="@color/black2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Uygulama içerisinde her hangi bi hata ve sorunlar ile karşılasan kullanıcılar sorun ve hataları daha hızlı çözüme kavuşturmak adına bizimle iletişeme geçmeleri gerekmektedir  İletişim menüsünde iletişim bilgilerimiz mevcuttur. Ayrıca yeni eklediğimiz anlık mesaj bölümündende bize mesaj atabilirsiniz. Görüş fikir ve önerilerinizi bizimle iletişime geçerek bildire bilirsiniz."
+                    android:textColor="@color/black2" />
+
+                <TextView
+                    android:id="@+id/textView52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:text="UYARI"
+                    android:textColor="@color/black2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Live gol bahis oynamayı teşvik etmez yalnızca bahis sevenlere faydalı olabilecek tahminlerde bulunur. Live gol kullanıcıların bahis oynamasında doğacak hiç bir problemden sorumlu tutulamayacağı gibi bütün sorumluluk kullanıcılara aittir.  18 yaşının altındakilerin kanunen uygun olmadığı gibi Toplum kültürü açısındanda doğru değildir.18 yaşının altındakilerin uygulamamızı kullanması uygun değildir."
+                    android:textColor="@color/black2" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kullanicisoz_back"
+    android:orientation="vertical"
+    tools:context=".kullanicisozlesmesivehizmetkosullari">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/hel_bold"
+                android:gravity="center"
+                android:text="Live Gol Mobil Android Uygulamaları Gizlilik Politikası "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Live Gol Mobil Uygulamasına erişim sağlayacak kişilerin (Kullanıcıların) Mobil Uygulamayı cihazlarına yüklemesi ile birlikte yürürlüğe girmiş olacaktır.  Live Gol Gizlilik Politikası Live Gol’ün Mobil Uygulama kapsamındaki hizmetlerden Kullanıcıları yararlandırmak amacıyla Kullanıcılara ait bilgilerin; toplanması, kullanılması ve işlenmesine ilişkin hükümleri içermektedir. Live Gol Gizlilik Politikası hükümlerini, dilediği zaman Mobil Uygulamasında yayınlamak suretiyle, tek taraflı olarak değiştirebilir. Live Gol’ün değişiklik yaptığı Gizlilik Politikası hükümleri, Live Gol uygulamasında yayınlandığı tarihte yürürlüğe girer.  Kullanıcıların Mobil Uygulamadan ayrılmak istemesi durumunda, uygulamayı kaldırması yeterli olacaktır."
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/hel_bold"
+                android:gravity="center"
+                android:text="1. Cihaz Bilgisi ve Kişi Bilgisine Erişilmesi   "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="a)Takma ad  "
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Uygulama içerisinde sizine daha kolay iletişime geçmek ve bir düzen oluşturmak amacı ile   Takma adlarınızı sunucularımızda tutuyoruz.​"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="b)Satın alım bilgisi  "
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Satın alım bilgilerinizi daha sonra onaylamak için sonucularımızda tutuyoruz.  "
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="c)Son görülme zamanı  "
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Bildirimleri düzenlemek ve aktiflik durumlarınızı ölçmek amacı ile son görülme zamanınızı tutuyoruz."
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="d)Mesajlarınız   "
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Bizimle iletişime geçtiğin mesajları daha kolay erişim açısından sunucularımızda tutuyoruz.  "
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="e)Reklam bilgileriniz ve diğer analiz bilgileriniz  "
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Bizimle pek alakası olmasada alt yapımız 'Google Fire Base' Sizinle alakalı bilgileri analiz için tutar.  "
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="f)Resimleriniz"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Resimlerinizi diger kullanicilardan ayirmak icin kullaniyoruz.Resimlerinizin diger kisiler tarafindan kullanilmasi sorumlulugu live tahmine ait degildir."
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Tarafımız tarafından tutulur kullanıcılar uygulamayı indirdiğinde bu koşulları kabul etmiş olurlar.  "
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/hel_bold"
+                android:gravity="center"
+                android:text="Bilgilerin Kullanılması  "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Live Gol Mobil Uygulamasına erişim sağlayacak kişilerin (Kullanıcıların) Mobil Uygulamayı cihazlarına yüklemesi ile birlikte yürürlüğe girmiş olacaktır.  Live Gol Gizlilik Politikası Live Gol’ün Mobil Uygulama kapsamındaki hizmetlerden Kullanıcıları yararlandırmak amacıyla Kullanıcılara ait bilgilerin; toplanması, kullanılması ve işlenmesine ilişkin hükümleri içermektedir. Live Gol Gizlilik Politikası hükümlerini, dilediği zaman Mobil Uygulamasında yayınlamak suretiyle, tek taraflı olarak değiştirebilir. Live Gol’ün değişiklik yaptığı Gizlilik Politikası hükümleri, Live Gol uygulamasında yayınlandığı tarihte yürürlüğe girer.  Kullanıcıların Mobil Uygulamadan ayrılmak istemesi durumunda, uygulamayı kaldırması yeterli olacaktır."
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/hel_bold"
+                android:gravity="center"
+                android:text="2.2 Bilgilerin Paylaşılması  "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Live Gol olarak Mobil Uygulama içerisindeki Kullanıcıya ait bilgilerin  veri depolama alanlarında tutulduğu ve ne amaç ile tuttuğumuz 1.1 Bilgilerin Kullanılması başlığında açıklanmıştır.Kayıt altında olan verilerin üçüncü taraflar ile hiç bir koşul gerekmeksizin asla paylaşılmayacaktır."
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/hel_bold"
+                android:gravity="center"
+                android:text="3. Uygulama Yaş Sınırı  "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Live Gol Android Uygulaması Google tarafından alınmış IARC Sertifikası sonuçlarına dayanarak Sadece 18+ yaş grubuna hitap etmektedir."
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/hel_bold"
+                android:gravity="center"
+                android:text="4. Marka ve Telif Hakkı  "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Live Gol adına kayıtlı Mobil uygulamanın ve Olusacak yada bulunabilecek diğer türlü her eserin (Mobil Uygulamanın; tasarım, metin, imge ve diğer kodlar da dahil ve fakat bunlarla sınırlı olmamak kaydıyla tüm elemanlarının) izinsiz kullanılması, çoğaltılması, kopyalanması, depo edilmesi ve kanuna aykırı diğer bütün haller,  556 sayılı Markaların Korunması Hakkında Kanun Hükmünde Kararname, 5846 sayılı Fikir ve Sanat Eserleri Kanunu ve diğer ilgili mevzuat uyarınca Kullanıcı'nın sorumluluğuna yol açar. Kullanıcılar, Live Gol Gizlilik Politikasını kabul etmekle Live Gol Marka ve Logosu'nun kullanımına ilişkin kurallara uygun davranacaklarını kabul, beyan ve taahhüt ederler. Kullanıcı'ların işbu madde hükmüne aykırı davranması durumunda, Live Gol  bu durumun düzeltilmesini Kullanıcı'dan talep edebileceği gibi dilerse Kullanıcı'ya önceden haber vermeksizin Kullanıcı'nın üyeliğini geçici veya kalıcı olarak iptal edebilir ve yasal yollara başvurabilir.  ​"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/hel_bold"
+                android:gravity="center"
+                android:text="5. Hizmet ve Gizlilik Koşulları  "
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="​  Live Gol Mobil Uygulama'da yer alacak ürün ve hizmetlerle ilgili olarak fiyat, promosyon, kampanya ve diğer bilgilerin güncelliği ile ilgili garanti vermemektedir. Live Gol de yer alacak, fiyat, ürün, kampanya ve promosyon bilgileri; kişiye, yere ve firmaya göre farklılıklar gösterebileceği gibi Live Gol’de Mobil Uygulama'da yer alan bilgilerde önceden bir bildirim yapmaksızın değişiklik yapma hakkına haizdir."
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
